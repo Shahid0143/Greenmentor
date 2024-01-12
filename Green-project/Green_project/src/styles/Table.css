@@ -1,0 +1,46 @@
+
+.table-container{
+    position: absolute;
+    top: 140%;
+    right: 3%;
+}
+
+
+
+
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    border: 1px solid rgb(209, 209, 209);
+    font-weight: 600;
+}
+
+/* Styling for the table header */
+thead {
+    background-color: rgb(247, 247, 247)
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+/* Alternate row background color for better readability */
+
+
+/* Hover effect for better user interaction */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.red {
+    color: red
+}
+
+.green {
+    color: green;
+}

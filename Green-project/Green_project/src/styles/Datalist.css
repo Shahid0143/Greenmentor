@@ -1,0 +1,257 @@
+.cat-box{
+    display: flex;
+        width: 67rem;
+        height: 4rem;
+        padding: 0rem 1.25rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+      
+}
+.txt-cat{
+    display: flex;
+        height: 4rem;
+        align-items: center;
+        gap: 0.75rem;
+}
+.setting-icon{
+    width: 1.24994rem;
+        height: 1.25rem;
+        flex-shrink: 0;
+}
+.cat-child{
+    /* color: #FFF; */
+    color: black;
+        font-family: HelveticaNeue;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.child-box{
+    display: flex;
+        height: 3.5rem;
+        padding: 0.5rem 1rem;
+        align-items: center;
+        gap: 0.625rem;
+        background: rgba(2, 171, 108, 0.01);
+}
+.img-box{
+    width: 2rem;
+        height: 2rem;
+        border-radius: 2rem;
+}
+.img-child-icon{
+    width: 1.5rem;
+        height: 1.5rem;
+}
+.notiy-icon{
+    display: flex;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.625rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 0.5rem;
+            border: 1px solid #EBEBEB;
+            background: #FFF;
+}
+.notify-txt{
+    /* display: flex; */
+        width: 0.875rem;
+        height: 0.875rem;
+        padding: 0.125rem;
+       position: absolute;
+       top:20px;
+      right: 4.5%;
+        border-radius: 6.25rem;
+            background: linear-gradient(0deg, #EA7E7E 0%, #EA7E7E 100%), #FFF;
+            color: #FFF;
+                text-align: center;
+                font-family: HelveticaNeue;
+                font-size: 0.5625rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+}
+
+/* .............................. */
+
+.date-box{
+    right: 6rem;
+    top: 7rem;
+   position: absolute;
+    width: 14.125rem;
+        height: 2rem;
+        flex-shrink: 0;
+        border-radius: 0.5rem;
+            border: 1px solid #FFF;
+            background: #FFF;
+            box-shadow: 0px 0.599px 5.32px 0px rgba(0, 0, 0, 0.01), 0px 2.01px 17.869px 0px rgba(0, 0, 0, 0.01), 0px 9px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.date-child-box{
+    display: inline-flex;
+        height: 2rem;
+        padding: 0.625rem 0.75rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        flex-shrink: 0;
+        position: relative;
+        
+
+}
+.date-txt{
+    /* color: #FFF; */
+    color: black;
+        font-family: HelveticaNeue;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.line-div{
+    width: 0.0625rem;
+        height: 1rem;
+        background: linear-gradient(0deg, #02AB6C 0%, #02AB6C 100%), #FFF;
+}
+.date-icon{
+    width: 0.45075rem;
+        height: 0.2875rem;
+        fill: rgba(0, 0, 0, 0.84);
+}
+.year-box{
+    position: absolute;
+    top: 28%;
+    left: 23%;
+    display: inline-flex;
+        padding: 0rem 8.3125rem 0rem 1.5rem;
+        align-items: center;
+        gap: 20px;
+      
+}
+.year-childbox{
+    width: 16.6875rem;
+        height: 8.375rem;
+        border: 1px solid transparent;
+            background-color: white;
+            border-radius: 10%;
+            padding: 1.4rem;
+}
+.txt-year-child{
+    width: 25rem;
+        height: 1.5rem;
+        flex-shrink: 0;
+        display: flex;
+     
+}
+.txt-current{
+    /* color: #FFF; */
+    color: black;
+        font-family: HelveticaNeue;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: 7px;
+        
+        
+}
+.non-icon{
+width: 0.875rem;
+    height: 0.875rem;
+    flex-shrink: 0;
+}
+.line-div3{
+    display: flex;
+        width: 5.625rem;
+        height: 0.25rem;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: rgba(0, 0, 0, 0.67);
+            text-align: center;
+            font-family: Poppins;
+            font-size: 0.5rem;
+            font-style: italic;
+            font-weight: 275;
+            line-height: normal;
+}
+.yoy-box{
+    display: flex;
+        height: 4.75rem;
+        padding: 0rem 5.0625rem 2rem 1.25rem;
+        align-items: center;
+        flex-shrink: 0;
+        align-self: stretch;
+        margin-top: 2rem;
+
+}
+.yoy-child{
+   
+    display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-self: stretch;
+        border-radius: 0.5rem;
+       padding: 0 1rem 0 0;
+            /* border: 1px solid rgb(229, 125, 125); */
+            background: linear-gradient(0deg, rgba(224, 48, 33, 0.04) 0%, rgba(224, 48, 33, 0.04) 100%), #FFF;
+}
+.yoy-child2{
+    display: flex;
+        align-self: stretch;
+            width: 1vw;
+            
+}
+.graph-box{
+    margin-top: 13px;
+    top: 55%;
+    left: 25%;
+    position: absolute;
+    width: 60.8125rem;
+        height: 31.5625rem;
+        flex-shrink: 0;
+        border-radius: 0.75rem;
+            border: 1px solid #EBEBEB;
+            background: #FFF;
+            box-shadow: 0px 0.599px 5.32px 0px rgba(0, 0, 0, 0.01), 0px 2.01px 17.869px 0px rgba(0, 0, 0, 0.01), 0px 9px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.gragh-child{
+display: flex;
+    width: 35.25rem;
+    height: 4rem;
+    padding: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.graph-txt{
+    color: black;
+        font-family: HelveticaNeue;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.line-graph-img{
+    position: absolute;
+    top: 9%;
+    width: 59.125rem;
+        height: 27.9375rem;
+        flex-shrink: 0;
+}
+.pie{
+    position: absolute;
+    top: 145%;
+    left: 30%;
+    width: 14.56125rem;
+        height: 15.01375rem;
+        flex-shrink: 0;
+}
+.emis{
+    position: relative;
+    top: -20px;
+    left: 0;
+}
